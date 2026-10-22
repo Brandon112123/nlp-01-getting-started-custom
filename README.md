@@ -14,7 +14,7 @@
 
 ## Project Overview
 
-Author: Denise Case
+Author: Brandon Smith
 
 Date: 2026 October
 
