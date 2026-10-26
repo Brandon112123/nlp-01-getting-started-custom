@@ -122,7 +122,7 @@ uv run python -m pytest
 
 ## Project Documentation
 
-The [hosted documentation site](https://denisecase.github.io/nlp-01-getting-started/)
+The [hosted documentation site](https://brandon112123.github.io/nlp-01-getting-started-custom/)
 is published using Zensical and GitHub Pages.
 
 The documentation site is used to present the project report,
