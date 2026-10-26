@@ -142,10 +142,16 @@ words = [word.lower() for word in words]
 
 # Strip out (remove) common punctuation from the beginning and end of words.
 # Keep only tokens longer than 3 characters to reduce noise.
-# Again, a list comprehension is great for simple list-to-list transformations.
+
+# D2: Remove four common words to improve the analysis.
+stop_words = {"from", "with", "that", "this"}
+
 clean_words: list[str] = [
-    word.strip(".,:;!?()[]\"'") for word in words if len(word) > 3
+    cleaned
+    for word in words
+    if len(cleaned := word.strip(".,:;!?()[]\"'")) > 3 and cleaned not in stop_words
 ]
+
 count_of_clean_words: int = len(clean_words)
 
 print("First 20 cleaned words:")
