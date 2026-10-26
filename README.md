@@ -226,3 +226,21 @@ testing, documentation, and code quality.
 - [Professional Python Workflow Guide](https://denisecase.github.io/pro-analytics-02/)
 - [Citation](CITATION.cff)
 - [License](LICENSE)
+
+## Custom Leadership NLP Analysis
+
+For my custom project, I analyzed the Wikipedia article about leadership using Python and natural language processing techniques.
+
+The program retrieved 21,006 raw words and identified 12,528 cleaned words. The most frequent terms included leadership, leaders, leader, group, and social.
+
+I used Python, BeautifulSoup, Polars, Matplotlib, and WordCloud to collect, process, and visualize the text.
+
+### Run My Custom Project
+
+```bash
+uv run python -m nlp.web_words_smith
+```
+
+### Project Results
+
+My complete analysis, bar chart, and word cloud are available in the [Project Report](docs/index.md).
